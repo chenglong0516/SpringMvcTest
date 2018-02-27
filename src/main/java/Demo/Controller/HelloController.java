@@ -10,7 +10,7 @@ public class HelloController {
 	
 	@RequestMapping("/say")
     public @ResponseBody String say() {
-        return "hello, world! This com from springMvc!";
+        return "hello, world! This com from springMvc and Github!";
     }
 	
 	@RequestMapping("/home")
